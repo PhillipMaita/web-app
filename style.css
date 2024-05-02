@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: red;
+}
+
+/*
+  ========================================
+  Homepage
+  ========================================
+*/
+
+h5 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: auto;
+}
+
+.mascot {
+    width: 450px;
+}
