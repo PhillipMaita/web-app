@@ -1,20 +1,46 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: red;
+    text-align:center ;
 }
 
 /*
   ========================================
-  Homepage
+  Title
   ========================================
 */
 
-h5 {
-    text-align: center;
-    font-size: 80px;
+.title {
+    font-size: 70px;
     margin-top: auto;
 }
 
-.mascot {
-    width: 450px;
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+.btn{
+    border:1px solid #ff0000;
+    border-radius:5px;
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+    transition: .2s;
+    font-size: 50px;
+}
+.btn:hover{
+    color: black;
+    background-color: red;
+    transition: .2s;
+}
+
+#result{
+    font-size: 30px;
+}
+
+ol{
+    text-align: left;
 }
