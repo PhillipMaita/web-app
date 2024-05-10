@@ -19,33 +19,35 @@
     <body>
         <script src="scrpit.js" async defer></script>
 
-        <!-- Title -->
-        <h5 class="title"> Workout Randomizer</h5>
+        <div class="wrapper">
+            <!-- Title -->
+            <h5 class="title"> Workout Randomizer</h5>
 
-        <!-- Button -->
-        <button class="btn "onclick="generateRandomNumber()">CLICK ME!!</button>
-        <p id="result"></p>
+            <!-- Button -->
+            <button class="btn "onclick="generateRandomNumber()">CLICK ME!!</button>
+            <p id="result"></p>
 
-        <script>
-            function generateRandomNumber() {
-            var min = 1
-            var max = 7
-            
-            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-            document.getElementById("result").innerHTML = "Random Number: " + randomNumber;
-        }
-        </script>
+            <script>
+                function generateRandomNumber() {
+                var min = 1
+                var max = 7
+                
+                var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+                document.getElementById("result").innerHTML = "Random Number: " + randomNumber;
+            }
+            </script>
 
-        <!-- Result -->
-        <h2>Match the Workout to your number</h2>
-        <ol>
-            <li>Push</li>
-            <li>Pull</li>
-            <li>Chest and back</li>
-            <li>Arms (bis and tris)</li>
-            <li>Sarms (shoulders and arms)</li>
-            <li>Shoulder</li>
-            <li>Legs</li>
-          </ol>
+            <!-- Result -->
+            <h2>Match the Workout to your number</h2>
+            <ol>
+                <li>Push</li>
+                <li>Pull</li>
+                <li>Chest and back</li>
+                <li>Arms (bis and tris)</li>
+                <li>Sarms (shoulders and arms)</li>
+                <li>Shoulder</li>
+                <li>Legs</li>
+            </ol>
+        </div>
     </body>
 </html>
