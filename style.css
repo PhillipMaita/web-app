@@ -18,7 +18,7 @@ body{
 
 .title {
     font-size: 70px;
-    margin-top: auto;
+    margin: auto;
 }
 
 /*
@@ -49,4 +49,19 @@ body{
 
 ol{
     text-align: left;
+}
+
+#date {
+    margin-bottom: auto;
+}
+
+#clock {
+    padding: 5%;
+    font-size: 30px;
+}
+
+.signature {
+    text-align: left;
+    font-size: 10px;
+    margin: auto;
 }
